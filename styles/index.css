@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply my-4 text-center text-2xl font-bold;
+  }
+
+  a {
+    @apply text-blue-400 underline;
+  }
+}
+
+@layer components {
+  #users p {
+    @apply inline-block font-semibold;
+  }
+}
